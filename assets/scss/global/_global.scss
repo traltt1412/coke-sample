@@ -1,0 +1,88 @@
+/* GLOBAL */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: $font-default;
+	font-size: 16px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+input[type="text"], input[type="email"] {
+	appearance: none;
+	border: none;
+	outline: none;
+	background: linear-gradient(0deg, #f3f3ff, #f3f3ff), #facd55;
+	box-shadow: 0px 23px 16px -10px rgba(0, 0, 0, 0.05);
+	border-radius: 40px;
+	display: block;
+	width: 100%;
+	height: 60px;
+	font-size: 20px;
+	line-height: 1.1;
+	text-align: center;
+	color: $colorDarkLilac;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.overflow-auto {
+	overflow: auto;
+}
+
+.hidden {
+	display: none;
+}
+
+.break-all {
+	word-break: break-all;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #c4c1e0;
+	border-radius: 99px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #34337d;
+	border-radius: 99px;
+}
+
+.w-full {
+	width: 100%;
+}
+
+.block {
+	display: block;
+}
+
+.flex {
+	display: flex;
+}
+
+.items-center {
+	align-items: center;
+}
